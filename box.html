@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Pricing</title>
+    <link rel="stylesheet" href="box.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h2 class="title"><span class="line"></span>YAY! It's BOGO<span class="line"></span></h2>
+        <div class="pricing-options" >
+            <div class="option " onclick="toggleOption(1)" >
+                <div class="standard">
+                    <div class="left">
+                      <input type="radio" name="unit" id="unit1">
+                      <label for="unit1">1 Unit <span class="discount">10% Off</span></label>
+                      <div class="std">standard price</div>
+                    </div>
+                  
+                   <div class="right">
+                     <p class="price">$10.00 USD <del>$24.00 USD</del></p>
+                   </div>
+                </div>
+                <div class="details">
+                    <div class="item">
+                        <span>#1</span>
+                        <div class="select-group">
+                            <label>Size</label>
+                            <select class="select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div class="select-group">
+                            <label>Color</label>
+                            <select class="select">
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span>#2</span>
+                        <div class="select-group">
+                            <select class="select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div class="select-group">
+                            <select class="select">
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     <!---------- first card end ------------>
+            
+
+     <!---------- second card start------------>
+            <div class="option " onclick="toggleOption(2)">
+                <div class="popular"><h4>MOST POPULAR</h4></div> 
+                  <div class="most-popular">
+                      <div class="left-popular">
+                          <input type="radio" name="unit" id="unit2">
+                          <label for="unit2">2 Unit <span class="discount">20% Off</span> </label>   
+                      </div>
+                     <div class="right-popular"><p class="price">$18.00 USD <del>$24.00 USD</del></p></div>
+                  </div>
+                  <div class="details">
+                    <div class="item">
+                        <span>#1</span>
+                        <div class="select-group">
+                            <label>Size</label>
+                            <select class="select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div class="select-group">
+                            <label>Color</label>
+                            <select class="select">
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span>#2</span>
+                        <div class="select-group">
+                            <select class="select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div class="select-group">
+                            <select class="select">
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                  
+            </div>
+     <!---------- second card end------------>
+
+     <!---------- third card start------------>
+
+            <div class="option" onclick="toggleOption(3)">
+                <div class="topPrice">
+                    <div class="left-topPrice">
+                        <input type="radio" name="unit" id="unit3">
+                        <label for="unit3">3 Unit <span class="discount">30% Off</span></label>
+                    </div>
+                    <div class="right-topPrice">
+                        <p class="price">$24.00 USD <del>$24.00 USD</del></p>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="item">
+                        <span>#1</span>
+                        <div class="select-group">
+                            <label>Size</label>
+                            <select class="select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div class="select-group">
+                            <label>Color</label>
+                            <select class="select">
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span>#2</span>
+                        <div class="select-group">
+                            <select class="select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                        <div class="select-group">
+                            <select class="select">
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+        </div>
+     <!---------- third card end------------>     
+ 
+     <!---------- shipping ------------>
+        <div class="shipping" > 
+          <p class="free-delivery">Free Delivery</p>
+          <p class="total">Total: <span>$18.00 USD</span></p>
+        </div>
+        <button class="addCart">+ Add to Cart</button> 
+        <div class="powered-by"> @ Powered by Pumper </div>
+
+    </div>
+  
+
+    <script defer src="box.js"></script>
+</body>
+</html>
