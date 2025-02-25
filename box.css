@@ -245,9 +245,11 @@ body {
         height: 1.4rem;
     }
 
-    .addCart {
-        font-size: 12px;
-        padding: 8px;
+      .addCart {
+        font-size: 14px;
+        padding: 10px;
+        width: 100%; /* Ensuring button takes full width */
+        margin-top: 10px;
     }
 
     .powered-by {
